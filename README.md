@@ -45,3 +45,13 @@ export MLFLOW_TRACKING_PASSWORD=c63426cbd6f6a12861a78c26d0cb97a9235a1150
 
 dvc init
 dvc repro (to activate)
+dvc dag ()
+
+## run the the application
+
+pip install flask
+python app.py
+
+# Note
+
+remember to activate your venv everytime you start a new terminal .\vkidney\Scripts\activate
