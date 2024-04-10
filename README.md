@@ -25,8 +25,8 @@ To set up a local development environment:
 
 1. Clone the repository: `git clone https://github.com/Daro-S/kidney-desease-classification.git`
 2. Navigate into the cloned project: `cd kidney-desease-classification`
-3. Create a virtual environment: `python -m venv kidney`
-4. Activate the virtual environment: `.\kidney\Scripts\activate`
+3. Create a virtual environment: `python -m venv vkidney`
+4. Activate the virtual environment: `.\vkidney\Scripts\activate`
 5. Install the dependencies: `pip install -r requirements.txt`
 
 ## Mlflow UI
