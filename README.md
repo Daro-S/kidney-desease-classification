@@ -23,8 +23,8 @@ This project aims to classify kidney disease based on various health metrics.
 
 To set up a local development environment:
 
-1. Clone the repository: `git clone https://github.com/Daro-S/kidney-desease-claffication.git`
-2. Navigate into the cloned project: `cd kidney-desease-claffication`
+1. Clone the repository: `git clone https://github.com/Daro-S/kidney-desease-classification.git`
+2. Navigate into the cloned project: `cd kidney-desease-classification`
 3. Create a virtual environment: `python -m venv kidney`
 4. Activate the virtual environment: `.\kidney\Scripts\activate`
 5. Install the dependencies: `pip install -r requirements.txt`
@@ -35,8 +35,13 @@ To set up a local development environment:
 
 Run this to export as env variables:
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/darosim.itdev/kidney-desease-claffication.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/darosim.itdev/kidney-desease-classification.mlflow
 
 export MLFLOW_TRACKING_USERNAME=darosim.itdev
 
 export MLFLOW_TRACKING_PASSWORD=c63426cbd6f6a12861a78c26d0cb97a9235a1150
+
+## Data Version Control (DVC)
+
+dvc init
+dvc repro (to activate)
