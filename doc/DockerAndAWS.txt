@@ -1,0 +1,2 @@
+1. Create Docker File Dockerfile
+2. Create main.yaml

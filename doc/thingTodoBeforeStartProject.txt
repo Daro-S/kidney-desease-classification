@@ -1,0 +1,5 @@
+1. Create template.py where we will create our project structure there
+2. create setup.py 
+3. Remember to always use venv for any python project (Check Readme.md for more detail)
+
+4. use logger don't forget that
